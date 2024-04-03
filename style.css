@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo-mario-bros {
+    width: 300px;
+    height: 200px;
+}
+
+button {
+    color: #fff;
+    background-color: #c51111;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #18D80F;
+
+}
+
+button:active {
+    opacity: .6;
+}
+.logo-mario-luigi {
+    width: 300px;
+}
+
+body {
+
+    height: 100vh;
+}
+
+.caixa-mae {
+    padding: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+}
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.whatssap {
+    position: fixed;
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+}
+
+p {
+    color: #fff;
+    margin-top: 10px;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header img {
+    height: 50px;
+    margin: 30px;
+}
+
+header a {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header a:hover {
+    color: #c51111;
+    font-size: 28px;
+
+}
+
+header a:active {
+    color: #18D80F; 
+    
+}
+form {
+    width: 230px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    margin-top: 15%;
+    margin-left: -14.5%;
+    padding: 15px;
+    border: 1px solid gray;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    outline-color: #090988;
+    border: 1px solid gray;
+}
+
+textarea {
+    padding: 10px;
+    height: 100px;
+    width: 270;
+    border-radius: 5px;
+    outline-color: #090988;
+    border: 1px solid gray;
+}
+
+.orçamento {
+    background-color: #090988;
+    height: 30px;
+    width: 150px;
+}
+
+.mascara-formulario {
+    visibility: hidden ;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16,0.7) 50%, rgba(10, 12, 16, 0.99) 85%) ;
+    transition: visibility 1s ease-in-out;
+}
